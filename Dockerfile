@@ -1,4 +1,4 @@
-FROM dodb:jenkins-java-slave
+FROM dodb/jenkins-java-slave
 MAINTAINER David Op de Beeck <davidopdebeeck@hotmail.com>
 
 # Gradle

@@ -10,3 +10,7 @@ RUN \
     unzip gradle-${GRADLE_VERSION}-all.zip && \
     ln -s gradle-${GRADLE_VERSION}/bin/gradle gradle && \
     rm gradle-${GRADLE_VERSION}-all.zip
+
+# Enable Gradle daemon
+
+COPY gradle.properties /home/jenkins/gradle.properties
